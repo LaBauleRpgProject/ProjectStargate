@@ -48,6 +48,20 @@ if (obj_joueur.direction >= 315  && speed < 0.3)
 if (obj_joueur.direction <= 45  && speed < 0.3)
 	{sprite_index = spr_joueurfixedroite};
 	
+//collision portes
+
+var warpInst = instance_place(x,y,obj_transition);
+if(warpInst != noone){
+	with(obj_game){
+		if(!roomChange){
+			roomChange = true;
+			spawnRoom = warpInst.targetRoom;
+			spawnX = warpInst.targetX;
+			spawnY = warpInst.targetY;
+			
+		}
+	}
+}
 
 
 	
