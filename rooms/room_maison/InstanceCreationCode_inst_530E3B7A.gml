@@ -1,3 +1,3 @@
 targetRoom = room_monde;
-targetX = 4916;
-targetY = 5022;
+targetX = 5005;
+targetY = 5152;
