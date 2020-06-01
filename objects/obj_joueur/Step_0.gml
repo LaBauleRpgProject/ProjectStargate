@@ -48,3 +48,6 @@ if (obj_joueur.direction >= 315  && speed < 0.3)
 if (obj_joueur.direction <= 45  && speed < 0.3)
 	{sprite_index = spr_joueurfixedroite};
 	
+
+
+	
