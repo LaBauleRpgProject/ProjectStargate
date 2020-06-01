@@ -4,10 +4,14 @@
     "mvc": "1.1",
     "name": "a42839df-3594-4545-a580-4bff2aa78462",
     "children": [
-        "77bae87f-a270-4514-81c3-158b5958fc22",
-        "f0ece2e8-9c1d-4664-a8a1-a34c779d4efd",
-        "df53a93f-e7bc-43b9-9441-2d06096e10e1",
-        "2728a2ec-9ea7-4b84-9a7a-d0be36fe57c0"
+        "9701eef6-0c31-4db3-b7ac-d1267a89ab4b",
+        "4cd2c5c0-ecf8-4875-90ce-f7e105b7c90e",
+        "f8b5f516-55ed-4b92-bb03-376604f79b10",
+        "502eb7aa-d1f5-4841-9050-ebd440800b41",
+        "91bc824b-39f2-4cf4-ad05-c4a4db3b9098",
+        "d6782a45-468c-42d8-9ffb-f53ba90e6650",
+        "3b61d76c-d5e7-47c0-8d25-610793d4b5ff",
+        "dbb09f61-a13d-4c48-97d2-d25da2e47e63"
     ],
     "filterType": "GMSprite",
     "folderName": "Sprites joueur",

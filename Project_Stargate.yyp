@@ -71,19 +71,19 @@
             }
         },
         {
-            "Key": "2728a2ec-9ea7-4b84-9a7a-d0be36fe57c0",
-            "Value": {
-                "id": "b2a8f77d-69e8-4817-bdc4-08ec73706d4f",
-                "resourcePath": "sprites\\spr_joueurfixehaut\\spr_joueurfixehaut.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2edca51e-c5ef-42e7-abaa-482d5d04aa13",
             "Value": {
                 "id": "3c8f065a-47cd-4f5a-844a-ed5b6a0d8f9c",
                 "resourcePath": "views\\2edca51e-c5ef-42e7-abaa-482d5d04aa13.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3b61d76c-d5e7-47c0-8d25-610793d4b5ff",
+            "Value": {
+                "id": "b5f046e0-9dd7-4739-a865-b00e58f3c3cb",
+                "resourcePath": "sprites\\spr_joueurmovedroite\\spr_joueurmovedroite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -111,6 +111,22 @@
             }
         },
         {
+            "Key": "4cd2c5c0-ecf8-4875-90ce-f7e105b7c90e",
+            "Value": {
+                "id": "8fc98648-ceaf-4f5d-b73d-2460f6b40cd1",
+                "resourcePath": "sprites\\spr_joueurfixehaut\\spr_joueurfixehaut.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "502eb7aa-d1f5-4841-9050-ebd440800b41",
+            "Value": {
+                "id": "57a418ca-492f-454a-b953-644d0cfe1178",
+                "resourcePath": "sprites\\spr_joueurfixegauche\\spr_joueurfixegauche.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "707bf1a8-7dc4-4f36-9d43-a34fe4916fd4",
             "Value": {
                 "id": "df21665c-8754-4d49-b2d8-1edb33ad4d1a",
@@ -119,10 +135,18 @@
             }
         },
         {
-            "Key": "77bae87f-a270-4514-81c3-158b5958fc22",
+            "Key": "91bc824b-39f2-4cf4-ad05-c4a4db3b9098",
             "Value": {
-                "id": "9991fc2f-262c-4d91-9952-06ec052d640c",
-                "resourcePath": "sprites\\spr_joueurfixebas\\spr_joueurfixebas.yy",
+                "id": "6da72268-0dd5-46df-8489-7e5dcdd3cb9e",
+                "resourcePath": "sprites\\spr_joueurmovebas\\spr_joueurmovebas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9701eef6-0c31-4db3-b7ac-d1267a89ab4b",
+            "Value": {
+                "id": "f8c2958d-5327-4331-a80a-b16fe3db2249",
+                "resourcePath": "sprites\\spr_joueurmovehaut\\spr_joueurmovehaut.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -183,6 +207,14 @@
             }
         },
         {
+            "Key": "d6782a45-468c-42d8-9ffb-f53ba90e6650",
+            "Value": {
+                "id": "dbc0f682-6d07-49cd-88b1-b5ccbbc61d50",
+                "resourcePath": "sprites\\spr_joueurfixebas\\spr_joueurfixebas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dabfd026-3439-4453-a1c5-4e33bcf46e01",
             "Value": {
                 "id": "ad9814d0-def4-4161-8b52-8e8cd9a8fc89",
@@ -191,9 +223,9 @@
             }
         },
         {
-            "Key": "df53a93f-e7bc-43b9-9441-2d06096e10e1",
+            "Key": "dbb09f61-a13d-4c48-97d2-d25da2e47e63",
             "Value": {
-                "id": "0f3bcbb8-1e1e-4505-b0dc-5db0cd201295",
+                "id": "4dbd94e4-8804-42ef-82bc-8ee9ca83e343",
                 "resourcePath": "sprites\\spr_joueurfixedroite\\spr_joueurfixedroite.yy",
                 "resourceType": "GMSprite"
             }
@@ -215,19 +247,19 @@
             }
         },
         {
-            "Key": "f0ece2e8-9c1d-4664-a8a1-a34c779d4efd",
-            "Value": {
-                "id": "46c3a5f9-7a9c-44eb-bc90-24eba5c511a4",
-                "resourcePath": "sprites\\spr_joueurfixegauche\\spr_joueurfixegauche.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f818a494-2eda-4a29-9e8f-864c72cbc435",
             "Value": {
                 "id": "622f0517-85bd-46d9-b55c-0a023beaf474",
                 "resourcePath": "rooms\\room_monde\\room_monde.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f8b5f516-55ed-4b92-bb03-376604f79b10",
+            "Value": {
+                "id": "f87284ae-6fb8-4156-8cb1-c7eb0a507305",
+                "resourcePath": "sprites\\spr_joueurmovegauche\\spr_joueurmovegauche.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
