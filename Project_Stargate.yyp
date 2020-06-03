@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "92688c4f-58bc-4428-9375-782c74b4320b",
+            "Value": {
+                "id": "4aef5773-1051-4afc-a072-dfab06d65a7d",
+                "resourcePath": "views\\92688c4f-58bc-4428-9375-782c74b4320b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9701eef6-0c31-4db3-b7ac-d1267a89ab4b",
             "Value": {
                 "id": "f8c2958d-5327-4331-a80a-b16fe3db2249",
@@ -524,6 +532,14 @@
                 "id": "2f6cc001-1f45-4076-b547-074a38f5a1dc",
                 "resourcePath": "views\\efd52a0f-8f13-4b5e-bb96-69afbfef3a8e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6fce398-dfde-439c-9ab9-ff6bc47e7810",
+            "Value": {
+                "id": "ae1c82c7-a78a-4b06-94df-d269a7b4907b",
+                "resourcePath": "sprites\\spr_solplancher\\spr_solplancher.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
