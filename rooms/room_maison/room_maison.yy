@@ -70,7 +70,7 @@
             "id": "27407d23-1ca7-4100-8075-a6eb23dd9aeb",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
@@ -119,7 +119,7 @@
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 400
+        "Width": 500
     },
     "mvc": "1.0",
     "views": [
