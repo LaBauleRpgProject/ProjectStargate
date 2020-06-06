@@ -8,6 +8,14 @@ if keyboard_check(vk_enter){
 	}
 }
 
-// Met la B.O du jeu 
-//désolé j'en avais marre de l'entendre :p Alex
-//audio_play_sound(snd_musique1,0,true);
+// Met la B.O du jeu
+audio_play_sound(snd_musique1,0,true);
+
+if(roomChange == true){
+	if(room != spawnRoom){
+		room_goto(spawnRoom);
+	}
+	else{
+		roomChange = false;	
+	}
+}
