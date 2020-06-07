@@ -62,6 +62,3 @@ if(warpInst != noone){
 		}
 	}
 }
-
-
-	

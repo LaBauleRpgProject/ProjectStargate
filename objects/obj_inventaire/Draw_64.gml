@@ -39,9 +39,30 @@ repeat(inv_slots){
 	
 	//Ecriture du Slot et de l'item
 	draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, 1);
-	if(iitem > 0) draw_sprite_part_ext(
-		spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1
-	);
+	
+	switch(ii){
+		case selected_slot:
+			if(iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1
+			);
+			gpu_set_blendmode(bm_add);
+			draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, .3); // le .3 permet de mettre en surbrillance le slot désigné par la souris
+			gpu_set_blendmode(bm_normal);
+			
+		break;
+		
+		case pickup_slot:
+			if(iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 0.2
+			);
+		break;
+		
+		default:
+			if(iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1
+			);
+		break;
+	}
 	
 	//Ecriture du nombre d'objet
 	if(iitem > 0){
@@ -53,4 +74,18 @@ repeat(inv_slots){
 	ii += 1;
 	ix = ii mod inv_slots_width;
 	iy = ii div inv_slots_width;
+}
+
+
+if(pickup_slot != -1){
+	//Objets(item)
+	iitem = inv_grid [# 0, pickup_slot];
+	sx = (iitem mod spr_inv_items_columns)*cell_size;
+	sy = (iitem div spr_inv_items_columns)*cell_size;
+	draw_sprite_part_ext(
+		spr_inv_items, 0, sx, sy, cell_size, cell_size, mousex, mousey, scale, scale, c_white, 1
+	);
+	
+	var inum = inv_grid[# 1, pickup_slot];
+	draw_text_color(mousex + (cell_size*scale*0.5), mousey, string(inum), c,c,c,c, 1);
 }
