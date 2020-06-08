@@ -63,5 +63,11 @@ if(warpInst != noone){
 	}
 }
 
-
-	
+// Pose de bâtiments
+// Faire apparaitre le bâtiment pour le poser
+if keyboard_check(vk_space) && instance_exists(obj_scierie_temp) = false 
+	{instance_create_layer(x,y,"Instances", obj_scierie_temp)};
+// Sortir de la pose de bâtiments avec échap
+if keyboard_check(vk_escape)
+	{instance_destroy(obj_scierie_temp)};
+// Le code pour que l'objet se pose est directement dans l'objet
