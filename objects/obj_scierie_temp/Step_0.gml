@@ -15,6 +15,8 @@ if (obj_joueur.direction >= 315 )
 if (obj_joueur.direction <= 45  )
 	{x = obj_joueur.x  + obj_scierie_temp.sprite_width/2 + obj_joueur.sprite_width/2; y = obj_joueur.y};
 
+image_alpha = 0.5;
+
 // Permet au joueur de poser le bâtiment
 if keyboard_check(ord("B")) && sprite_index = spr_scierie_vrai
 	{instance_destroy()};
