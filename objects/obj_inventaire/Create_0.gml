@@ -88,9 +88,6 @@ enum item {
 	height				= 17,
 }
 
-ds_inventory[# 0, 0] = item.seau;
-ds_inventory[# 1, 0] = 1;
-
 var yy = 0; repeat(inv_slots){
 	ds_inventory[# 0, 0] = item.seau;
 	ds_inventory[# 1, 0] = 1;
@@ -98,6 +95,8 @@ var yy = 0; repeat(inv_slots){
 	ds_inventory[# 1, 1] = 60;
 	ds_inventory[# 0, 2] = item.pierre;
 	ds_inventory[# 1, 2] = 30;
+	ds_inventory[# 0, 3] = item.pierre;
+	ds_inventory[# 1, 3] = 30;
 
 	yy += 1;
 	

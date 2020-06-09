@@ -1,6 +1,7 @@
 if(keyboard_check_pressed(ord("I"))) {show_inventory =! show_inventory; }
 
 if(!show_inventory) exit;
+
 #region Mouse Slot
 mousex = device_mouse_x_to_gui(0);
 mousey = device_mouse_y_to_gui(0);
@@ -66,7 +67,7 @@ if(pickup_slot != -1){
 	}
 }
 else if(ss_item != item.none){
-	if(mouse_check_button_pressed(mb_right)){
-		pickup_item = selected_slot;
+	if(mouse_check_button_pressed(mb_left)){
+		pickup_slot = selected_slot;
 	}
 }
