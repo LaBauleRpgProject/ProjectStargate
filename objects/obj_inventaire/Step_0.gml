@@ -69,5 +69,5 @@ if(pickup_slot != -1){
 else if(ss_item != item.none){
 	if(mouse_check_button_pressed(mb_left)){
 		pickup_slot = selected_slot;
-	}
+	}	
 }
