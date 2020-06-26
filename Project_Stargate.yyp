@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2cde3237-23de-41ea-9c0d-acb868eacdf6",
+            "Value": {
+                "id": "16e75edf-c7fd-46fe-8891-1beff76b4c74",
+                "resourcePath": "objects\\obj_NPC\\obj_NPC.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2edca51e-c5ef-42e7-abaa-482d5d04aa13",
             "Value": {
                 "id": "3c8f065a-47cd-4f5a-844a-ed5b6a0d8f9c",
@@ -332,6 +340,14 @@
                 "id": "5425119f-80b9-4f8d-8f24-e51cf63258eb",
                 "resourcePath": "sprites\\spr_roche3\\spr_roche3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6bfad290-4ecd-4571-86ef-d68b182ccb18",
+            "Value": {
+                "id": "e450b4f4-8965-4fbc-a1c9-618fc33c4531",
+                "resourcePath": "objects\\obj_npc_test\\obj_npc_test.yy",
+                "resourceType": "GMObject"
             }
         },
         {
